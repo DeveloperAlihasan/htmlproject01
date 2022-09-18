@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+    background-color: #fff;
+    width: 100%;
+    padding: 6px 0;
+}
+.header-menu{
+    text-align: center;
+}
+
+.primary-menu ul{}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    background-color: rgb(33, 197, 230);
+    color: #000;
+    font-weight: bold;
+    transition: .4s ease;
+    
+}
+.primary-menu ul li a:hover{
+    background-color: #fff;
+    color: aqua;
+
+}
+.primary-menu ul li a::after{
+    content: " ";
+    background-color: #000;
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: all .4s ease;
+   
+
+}
+.primary-menu ul li:hover a::after{
+    width: 100%;
+
+}
+
+/* gallery item css */
+
+.gallery{
+    background-color: #dddd;
+    padding: 100px 0;
+}
+
+
+.box-item{
+    text-align: center;
+}
+
+.box-1 {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+.img-box{}
+
+.img-box img{
+    width: 100%;
+    transition:0.4s;
+}
+.box-1 .img-box img:hover{
+    transform:rotate(-45deg) scale(1.5)
+
+}
+
+/*........................... video-section css.................................... */
+
+.video-section{
+    background-color: #fff;
+    position: relative;
+
+    padding: 100px 0;
+}
+.video-titel{}
+.step1 {
+    position: absolute;
+    top: 200px;
+    left: 154px;
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    transform:rotate(-45deg);
+    transition:0.4s;
+}
+.step2 {
+    position: absolute;
+    top: 200px;
+    right: 687px;
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    transition:0.4s;
+}
+.step3{
+    position:absolute;
+    top: 200px;
+    right: 287px;
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    transform:rotate(45deg);
+    transition:0.4s;
+}
+.step1:hover{
+    background-color: rgb(12, 228, 247);
+    color: rgb(217, 0, 255);
+    transform:scale(1.5)
+}
+.step2:hover{
+    background-color: rgb(12, 228, 247);
+    color: rgb(217, 0, 255);
+    transform:scale(1.5)
+}
+.step3:hover{
+    background-color: rgb(12, 228, 247);
+    color: rgb(217, 0, 255);
+    transform:scale(1.5)
+}
+
+/* banner section & hover button  */
+.banner{
+    background-color: #fff;
+    padding:100px 0;
+
+}
+
+a.hover-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 50px;
+    background: #ddd;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+
